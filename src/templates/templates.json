@@ -1,0 +1,36 @@
+[
+  {
+    "id": "pj_001",
+    "title": "Personal Finance Tracker API",
+    "description": "A REST API to track income and expenses. Great for learning CRUD operations and JWT Authentication.",
+    "difficulty": "beginner",
+    "recommended_stacks": ["Python", "FastAPI", "SQLite"],
+    "features": [
+      "User Registration & Login (JWT)",
+      "Create, Read, Update, Delete transactions",
+      "Monthly summary endpoint"
+    ],
+    "learning_outcomes": [
+      "HTTP Verbs & Status Codes",
+      "Pydantic Validation",
+      "Authentication flows"
+    ]
+  },
+  {
+    "id": "pj_002",
+    "title": "Real-time Chat Application",
+    "description": "A chat room application allowing multiple users to message in real-time.",
+    "difficulty": "intermediate",
+    "recommended_stacks": ["Node.js", "Socket.io", "Redis", "React"],
+    "features": [
+      "Real-time message broadcasting",
+      "Active user list",
+      "Chat history persistence"
+    ],
+    "learning_outcomes": [
+      "WebSockets",
+      "Event-driven architecture",
+      "State management"
+    ]
+  }
+]

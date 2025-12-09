@@ -4,7 +4,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from contextlib import asynccontextmanager
 
-## from src.api.routes import router as api_router
+from src.api.routes import router as api_router
 
 # Configure logging
 logging.basicConfig(
@@ -47,8 +47,7 @@ def create_application() -> FastAPI:
     # --- ARCHITECTURE CONNECTION POINT ---
     # Here we include the routes defined in the API layer.
     # The prefix "/api/v1" is a best practice for API versioning.
-   # This means all endpoints will start with http://localhost:8000/api/v1/...
-   # application.include_router(api_router, prefix="/api/v1")
+    application.include_router(api_router, prefix="/api/v1")
 
     return application
 
